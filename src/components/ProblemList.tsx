@@ -35,7 +35,7 @@ export default function ProblemList({ category, activeFilter, onProblemToggle }:
       contents: [{ role: "user", parts: [{ text: prompt }] }]
     };
     
-    const apiKey = "AIzaSyCsuhgUWLsLao-liIre0r__30DPdhMfFGs";
+    const apiKey = "";
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     try {
